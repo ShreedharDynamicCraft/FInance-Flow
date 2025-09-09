@@ -7,15 +7,12 @@ import {
   TrendingUp, 
   Shield, 
   Zap, 
-  BarChart3, 
   PieChart, 
   Wallet,
   Users,
   Target,
   Award,
   Github,
-  ArrowRight,
-  CheckCircle,
   Sparkles,
   Brain,
   CreditCard
@@ -261,7 +258,7 @@ const LandingPage = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">AI Insight</h4>
-                      <p className="text-sm text-gray-600">You're spending 23% less on dining out this month. Consider allocating the savings to your emergency fund!</p>
+                      <p className="text-sm text-gray-600">You&apos;re spending 23% less on dining out this month. Consider allocating the savings to your emergency fund!</p>
                     </div>
                   </div>
                 </div>
@@ -355,7 +352,7 @@ const LandingPage = () => {
               What Users Say
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Join thousands of satisfied users who've transformed their financial lives.
+              Join thousands of satisfied users who&apos;ve transformed their financial lives.
             </p>
           </div>
           
@@ -377,7 +374,7 @@ const LandingPage = () => {
                       <div key={i} className="w-5 h-5 text-yellow-400">★</div>
                     ))}
                   </div>
-                  <p className="text-gray-600 leading-relaxed">"{testimonial.quote}"</p>
+                  <p className="text-gray-600 leading-relaxed">&quot;{testimonial.quote}&quot;</p>
                 </CardContent>
               </Card>
             ))}

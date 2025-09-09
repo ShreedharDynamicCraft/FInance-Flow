@@ -5,7 +5,7 @@ import { getCurrentBudget } from "@/actions/budget";
 import { AccountCard } from "./_components/account-card";
 import { CreateAccountDrawer } from "@/components/create-account-drawer";
 import { BudgetProgress } from "./_components/budget-progress";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Plus, TrendingUp, Wallet, PiggyBank, CreditCard } from "lucide-react";
 import { DashboardOverview } from "./_components/transaction-overview";
 
